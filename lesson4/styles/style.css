@@ -1,0 +1,81 @@
+body {
+    background: #f8f8f8;
+}
+.menu {
+    list-style-type: none;
+}
+.menu a {
+    color:grey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-size: 25px;
+    text-decoration: none;
+}
+.shortDescription {
+    color: black;
+    font-size: 18px;
+}
+.characteristics {
+    color: #707070;
+    font-size: 15px;
+    font-style: italic;
+    line-height: 16px;
+}
+.fullDescription {
+    color: #484343;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+}
+.fullDescription, .shortDescription {
+    font-weight: 400;
+    background: #eaeaea;
+}
+.charList {
+    list-style-type: square;
+    color: olivedrab;
+    font-style: italic;
+}
+input[type="text"], input[type="email"], textarea {
+    width: 300px;
+    color:blueviolet;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+textarea {
+    height: 100px;
+}
+input[type="text"], [type="email"] {
+    height: 20px;
+}
+a img {
+    border: brown solid 2px;
+}
+
+a img:hover {
+    border-color: transparent;
+}
+
+input[type="email"]:focus {
+    background: peru;
+    color: azure;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    border: black solid 1px;
+}
+
+header {
+    background: lightblue;
+}
+
+footer {
+    background:lightcoral;
+    height: 150px;
+    color: whitesmoke;
+    text-align: center;
+}

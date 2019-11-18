@@ -1,0 +1,192 @@
+body {
+    background: #f8f8f8;
+}
+.menu {
+    margin-right: 10px;
+    float: right;
+}
+.menu a {
+    color:grey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-size: 25px;
+    text-decoration: none;
+}
+.shortDescription {
+    color: black;
+    font-size: 18px;
+    margin-top: 0px;
+}
+
+.shortDescriptionContainer {
+    float: right;
+    width: 80%;
+    overflow: hidden;
+}
+
+.descriptionWrap {
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.buyButton {
+    float:right;
+    padding: 15px 25px;
+    text-align: center;
+    font-weight: bold;
+    color: whitesmoke;
+    font-family: sans-serif;
+    text-decoration: none;
+    border: lightgrey solid 2px;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#febbbb+0,fe9090+45,ff5c5c+100;Red+3D+%231 */
+    background: #febbbb; /* Old browsers */
+    background: -moz-linear-gradient(top,  #febbbb 0%, #fe9090 45%, #ff5c5c 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #febbbb 0%,#fe9090 45%,#ff5c5c 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #febbbb 0%,#fe9090 45%,#ff5c5c 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#febbbb', endColorstr='#ff5c5c',GradientType=0 ); /* IE6-9 */
+}
+
+.buyButton:hover {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#febbbb+0,fe9090+99,fe9090+99,ff5c5c+100 */
+    background: #febbbb; /* Old browsers */
+    background: -moz-linear-gradient(top,  #febbbb 0%, #fe9090 99%, #fe9090 99%, #ff5c5c 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #febbbb 0%,#fe9090 99%,#fe9090 99%,#ff5c5c 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #febbbb 0%,#fe9090 99%,#fe9090 99%,#ff5c5c 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#febbbb', endColorstr='#ff5c5c',GradientType=0 ); /* IE6-9 */
+}
+
+.buyButton:active {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#febbbb+0,fe9090+28,fe9090+28,ff5c5c+41 */
+    background: #febbbb; /* Old browsers */
+    background: -moz-linear-gradient(top,  #febbbb 0%, #fe9090 28%, #fe9090 28%, #ff5c5c 41%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #febbbb 0%,#fe9090 28%,#fe9090 28%,#ff5c5c 41%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #febbbb 0%,#fe9090 28%,#fe9090 28%,#ff5c5c 41%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#febbbb', endColorstr='#ff5c5c',GradientType=0 ); /* IE6-9 */
+
+}
+
+.characteristics {
+    color: #707070;
+    font-size: 15px;
+    font-style: italic;
+    line-height: 16px;
+    clear: both;
+}
+.fullDescription {
+    color: #484343;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+}
+.fullDescription, .shortDescription, .characteristics {
+    font-weight: 400;
+    background: #eaeaea;
+}
+.charList {
+    list-style-type: square;
+    color: olivedrab;
+    font-style: italic;
+}
+input[type="text"], input[type="email"], textarea {
+    width: 300px;
+    color:blueviolet;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+textarea {
+    height: 100px;
+}
+input[type="text"], [type="email"] {
+    height: 20px;
+}
+a img {
+    border: lightcoral solid 2px;
+    float: left;
+    height: 300px;
+    width: 150px;
+}
+
+a img:hover {
+    border-color: transparent;
+}
+
+input[type="email"]:focus {
+    background:lightcoral;
+    color: azure;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    border: black solid 1px;
+}
+
+header {
+    background: lightblue;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+footer {
+    background:lightcoral;
+    height: 150px;
+    color:white;
+    text-align: center;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu a:hover {
+    color: lightcoral;
+}
+
+.container {
+    width: 900px;
+    margin: 0 auto 0 auto;
+}
+
+header img {
+    margin: 50px 0 0 20px;
+}
+
+.storeName {
+    position: absolute;
+    top: 66px;
+    left: 80px;
+}
+
+.menu li {
+    display: inline-block;
+    padding: 0px 5px;
+}
+
+.mark {
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.catalogWrap {
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item {
+    width: 33%;
+    border: #484343 solid 2px;
+    margin-right: 10px;
+    padding-left: 10%;
+}
+
+.item:nth-child(3n) {
+    margin-right: 0px;
+}
+
+.item:nth-child(-n+3) {
+    margin-top: 0px;
+}

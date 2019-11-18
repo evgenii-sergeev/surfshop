@@ -1,0 +1,578 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,800,900|Roboto:400,700,900&display=swap');
+
+body {
+    margin: 0;
+    background:#f8f8f8;
+}
+
+.header {
+height: 700px;
+background-color: #abeafa;
+}
+
+.headerInner {
+    width: 1170px;
+    height: inherit;
+    margin: 0 auto;
+    position: relative;
+}
+
+.logo {
+    background: url(img/surfhouse_logo.png);
+    width: 125px;
+    height: 111px;
+    display: block;
+    position:absolute;
+    top: 24px;
+    left: 69px;
+}
+
+.socialMediaHeader {
+    float: right;
+    position: absolute;
+    right: 64px;
+    top: 50px;
+    letter-spacing: 11px;
+    color: white;
+}
+
+.headerContentLeft {
+    width: 270px;
+    height: 300px;
+    background-color: #fff51f;
+    float: left;
+    margin-top: 336px;
+}
+
+.headerContnentLeftText1 {
+    color: #333333;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 30px;
+    text-transform: uppercase;
+    margin-left: 25px;
+    margin-top: 82px;
+}
+
+.headerContnentLeftText2 {
+    color: #333333;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    font-style: italic;
+    line-height: 14px;
+    margin-left: 25px;
+    margin-top: 24px;
+}
+
+.headerContentRight {
+    width: 313px;
+    height: 169px;
+    color: #fff51f;
+    float: right;
+    margin-right: 109px;
+    margin-top: 243px
+}
+
+.jpFunride {
+    font-family: 'Raleway', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 34px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+    margin-top: 0px;
+}
+
+.superEasy {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 0px;
+}
+
+.buttonHeader {
+    width: 124px;
+    height: 49px;
+    background-color: #fff51f;
+    display: block;
+    color: #000000;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin-top: 62px;
+    margin-left: 3px;
+}
+
+.buttonHeader:hover {
+    background: #000000;
+    color: #fff51f;
+}
+
+.container {
+    overflow: hidden;
+    margin-top: -18px;
+}
+
+.containerInner {
+    width: 1170px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.leftContent {
+    float:left;
+    width: 270px;
+}
+
+.rightContent {
+    float:right;
+    width: 870px;
+    overflow: hidden;
+}
+
+.leftMenu {
+    float:left;
+    width: 270px;
+    overflow: hidden;
+}
+
+.menuCaption a {
+    height: 66px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+    text-transform: uppercase;
+    display: block;
+    padding: 0px 40px;
+    text-decoration: none;
+    background-color: #26d2fc;
+    color: #333333;
+    line-height: 43px;
+    height: 43px;
+}
+
+.menuCaption a:first-child {
+    background-color: #333333;
+    color: #ffffff;
+    height: 66px;
+    line-height: 66px;
+}
+
+.menuCaption a:hover {
+    background-color: #333333;
+    color: #ffffff;   
+}
+
+.leftBanner {
+    float:left;
+    width: 270px;
+    height: 300px;
+    overflow: hidden;
+    background-color: #e0e0e0;
+    margin-top: 30px;
+}
+
+.leftBannerText {
+    color: #333333;
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    font-weight: 800;
+    font-style: italic;
+    text-transform: uppercase;
+    padding-top: 129px;
+    padding-left: 142px;
+    margin-bottom: 73px;
+}
+
+.newProducts {
+    float:right;
+    width: 870px;
+    overflow: hidden;
+    background-color: #f8f8f8;
+    margin-bottom: 46px;
+}
+
+.ProductsCaption {
+    color: #707070;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-style: italic;
+    line-height: 78px;
+    height: 78px;
+    padding-left: 25px;
+    margin:0;
+}
+
+.newProductBox, .newProductBoxNew, .newProductBoxHot {
+    position: relative;
+    margin-right:30px;
+    float: left;
+}
+
+.newProductBox:nth-of-type(3n) {
+    margin-right: 0px;
+}
+
+.newProductBox:nth-of-type(n+4) {
+    margin-top: 30px;
+}
+
+.newProductBoxNew::before {
+    content: "New";
+    background: url(img/new_corner.png) no-repeat;
+    color: white;
+}
+
+.newProductBoxHot::before {
+    content: "Hot";
+    background: url(img/hot_corner.png) no-repeat;
+    color: black;
+}
+
+.newProductBoxNew::before, .newProductBoxHot::before {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;;
+    font-size: 9px;
+    padding: 9px 0 0 22px;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    width: 46px;
+    height: 46px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1
+}
+
+.newProductBoxTop {
+    width: 250px;
+    height: 230px;
+    background-color: #eaeaea;
+    border-top: 10px solid white;
+    border-left: 10px solid white;
+    border-right: 10px solid white;
+}
+
+.newProductBoxBottom {
+    width: 270px;
+    height: 80px;
+    background-color: #ffffff;
+}
+
+.productName {
+    float: left;
+    margin-left: 26px;
+    color: #333333;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 18px;
+    font-style: italic;
+    width: calc(2*100%/3.85);
+    height: 2.5em;
+    overflow: hidden;
+    margin-top: 24px;
+}
+
+.productPrice {
+    float: right;
+    font-size: 18px;
+    margin-right: 14px;
+    text-align: right;
+    margin-top: 27px;
+}
+
+.actual {
+    color: #333333;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    line-height: 18px;
+    font-style: italic;
+}
+
+.obsolete {
+    color: #e24602;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    line-height: 18px;
+    text-decoration: line-through;
+    Font-style: italic;
+    }
+
+.topProducts {
+    float:right;
+    width: 870px;
+    overflow: hidden;
+    background-color: #f8f8f8;
+    margin-bottom: 50px;
+}
+
+.saleProducts {
+    float:right;
+    width: 870px;
+    overflow: hidden;
+    background: #f8f8f8;
+    margin-bottom: 30px;
+}
+
+.brand {
+    width: 1170px;
+    height: 160px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.instaFeed {
+    width: 1170px;
+    height: 350px;
+    background-color: #eaeaea;
+    margin: 0 auto;
+}
+
+.instaFeedText {
+    height: 105px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.instaFeedText i {
+    font-weight: bold;
+    font-size: 28px;
+    color: #333333;
+}
+
+.iF1 {
+
+    color: #333333;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    font-weight: 800;
+    font-style: italic;
+    padding-left: 8px;
+}
+
+.iF2 {
+
+    color: #333333;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    font-style: italic;
+    padding-left: 5px;
+}
+
+.instaPhotos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.socials {
+    display: flex;
+    justify-content: stretch;
+    align-items: center;
+    margin: 0 auto;
+    width: 1170px;
+}
+
+.fbkBox, .twtBox, .pinBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 62px;
+    text-decoration: none;
+    color: white;
+}
+
+.fbkBox {
+    width: 390px;
+    height: 150px;
+    background-color: #3b5997;
+}
+
+.twtBox {
+    width: 390px;
+    height: 150px;
+    background-color: #3fccfd;
+}
+
+.pinBox {
+    width: 390px;
+    height: 150px;
+    background-color: #cb2027;
+}
+
+.footer {
+    background-color: #373737;
+}
+
+.footerInner {
+    width: 1170px;
+    height: 301px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 77px;
+}
+
+.copyright {
+    height: 50px;
+    background-color: #333333;
+}
+
+.copyrightInner {
+    height: 50px;
+    width: 1170px;
+    margin:0 auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copyRightInnerLeft, .copyRightInnerRight  {
+    color: #dad9d9;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 21.6px;
+}
+
+.copyRightInnerRight {
+    letter-spacing: 7px;
+}
+
+.copyRightInnerRight a {
+    text-decoration: none;
+    color: #dad9d9
+}
+
+.footerCaption {
+    width: 109px;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+
+.footerInner a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.newsletterText {
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    width: 195px;
+    margin-bottom: 20px;
+}
+
+.footerCaption2 {
+    width: 109px;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: bolder;
+    line-height: 18px;
+    margin-bottom: 8px;
+}
+
+.footerInput {
+    width: 180px;
+    height: 30px;
+    background-color: #fff51f;
+    outline: none;
+    border: none;
+    padding: 0 5px;
+    box-sizing: border-box;
+    float: left;
+}
+
+input[type="submit"] {
+    width: 71px;
+    height: 30px;
+    background-color: #000000;
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    border: 0;
+    outline: none;
+}
+
+input[type="submit"]:active {
+    background-color:white;
+    color:black; 
+}
+
+input[type="submit"]:hover {
+    cursor: pointer;
+}
+
+.footerData {
+    margin-bottom: 45px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.aboutUsText {
+    width: 232px;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    margin-bottom: 14px;
+}
+
+.aboutUsText2 {
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+}
+
+.aboutUsText3 {
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+}
+
+.aboutUsText3 a {
+    width: 131px;
+    color: #faef03;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 36px;
+    text-decoration: none;
+}

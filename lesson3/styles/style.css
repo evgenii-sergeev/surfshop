@@ -1,0 +1,102 @@
+body {
+    background: #f8f8f8;
+}
+.menu {
+    list-style: none;
+}
+.menu a {
+    color: brown;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-size: 25px;
+    text-decoration: none;
+}
+.shortDescription {
+    color: black;
+    font-size: 18px;
+    background: #eaeaea;
+}
+.characteristics {
+    color: #707070;
+    font-size: 15px;
+    font-style: italic;
+    line-height: 16px;
+}
+.fullDescription {
+    color: #484343;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+}
+.fullDescription .shortDescription {
+    font-weight: 400;
+    body {
+    background: #f8f8f8;
+}
+.menu {
+    list-style-type: none;
+}
+.menu a {
+    color: brown;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-size: 25px;
+}
+.shortDescription {
+    color: black;
+    font-size: 18px;
+}
+.characteristics {
+    color: #707070;
+    font-size: 15px;
+    font-style: italic;
+    line-height: 16px;
+}
+.fullDescription {
+    color: #484343;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+}
+.fullDescription .shortDescription {
+    font-weight: 400;
+    background: #eaeaea;
+}
+.charList {
+    list-style-type: square;
+    color: olivedrab;
+    font-style: italic;
+}
+input[type="text"], [type="email"], textarea {
+    width: 300px;
+    color:blueviolet;
+    font-size: 20px;
+}
+textarea {
+    height: 100px;
+}
+input[type="text"], [type="email"] {
+    height: 20px;
+}
+.imgBorder {
+    border: brown solid 2px;
+}
+.charList {
+    list-style-type: square;
+    color: olivedrab;
+    font-style: italic;
+}
+input[type="text"], [type="email"], textarea {
+    width: 300px;
+    color:blueviolet;
+    font-size: 20px;
+}
+textarea {
+    height: 100px;
+}
+input[type="text"], [type="email"] {
+    height: 20px;
+}
+.imgBorder {
+    border: brown solid 2px;
+}
